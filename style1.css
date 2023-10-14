@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.btn{
+    
+   color: #fff;
+   padding: 10px 20px;
+    background-color: red;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 40px;
+    width: 20%;
+    border-radius: 10px/20px;
+    border: none;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+body{
+    background-color: #fff;
+}
+header{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    
+}
+header .navigation{
+    background-color: red;
+}
+header .navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+}
+header .navigation ul li{
+    list-style: none;
+    margin-inline: 20px;
+    text-transform: uppercase;
+}
+header .navigation ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.4s ease-in;
+    transition-delay: 0.3s;
+
+}
+header .navigation ul li a:hover{
+    border-bottom:2px solid #fff ;
+}
+header .heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+header .heading h2{
+    color: red;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+header .heading input{
+    width: 30%;
+    height: 30px;
+}
+
+.bannier{
+    background-image: url(image/1\ \(5\).jpg);
+    height: 75vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items:  center;
+    margin-bottom: 30px;
+
+}
+
+.bannier #box{
+    display: block;
+}
+.bannier p{
+    padding-right: 200px;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.bannier #box strong{
+    color: red;
+    font-size: 4rem;
+}
+.bannier #box button{
+    border: none;
+    background-color: red;
+    padding: 1.1rem 8rem ;
+    border-radius: 10px/20px;
+    cursor: pointer;
+    transition: 0.3;
+    color:#fff
+}
+.bannier #box button:hover{
+    transform: scale(1.2);
+
+}
+main{
+    
+    width: 90%;
+    margin-inline: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+     gap: 2%; 
+     justify-content: center;
+     margin-bottom: 50px;
+     
+    
+}
+main article{
+    width: 23%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    
+   
+}
+main article .main img{
+    width: 100%;
+    height: 200px;
+}
+main article .main h1{
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+main article .main p{
+    text-align: center;
+    font-size: 1.1rem;
+}
+main article footer{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.1rem;
+
+}
+footer{
+background-color: red;
+width: 50%;
+height: auto;
+padding:  0 20px;
+margin-inline: 75px;
+margin-bottom: 20px;
+}
+footer p{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+
+
